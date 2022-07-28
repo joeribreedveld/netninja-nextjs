@@ -8,7 +8,6 @@ import Link from "next/link"
 export default function Home() {
 	return (
 		<div>
-			<Navbar />
 			<h1>Homepage</h1>
 			<p>
 				Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis perferendis quae obcaecati molestiae nam eligendi facilis aperiam at aliquid qui sit cumque vero non laborum iure,
@@ -21,7 +20,6 @@ export default function Home() {
 			<Link href='/ninjas'>
 				<a>See Ninja Listing</a>
 			</Link>
-			<Footer />
 		</div>
 	)
 }
